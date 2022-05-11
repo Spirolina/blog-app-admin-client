@@ -1,0 +1,38 @@
+.error-container {
+    color: black;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 85px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+}
+
+.error-alert {
+    width: 100%;
+    background-color: #cb3827;
+    font-size: 18px;
+    display: flex;
+    padding: 16px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.error-message {
+    width: 90%;
+}
+
+.error-icon {
+    position: absolute;
+    font-size: 22px;
+    right: -10px;
+    top: -10px;
+    transition: all 0.2s;
+}
+
+.error-icon:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}

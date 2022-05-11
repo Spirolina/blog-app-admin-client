@@ -1,0 +1,16 @@
+.create-button {
+    position: fixed;
+    bottom: 3%;
+    right: 1%;
+    font-size: 90px;
+    padding: 0;
+    background-color: transparent;
+    color: #A5D6D9;
+    border-radius: 100%;
+    transition: all 0.2s;
+}
+
+.create-button:hover {
+    cursor: pointer;
+    color: #699FA1;
+}

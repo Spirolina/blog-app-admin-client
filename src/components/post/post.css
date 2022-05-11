@@ -1,0 +1,119 @@
+.post {
+    width: 100%;
+    background-color: #e38e45;
+    padding: 10px;
+    border-radius: 5px;
+    height: 100px;
+    display: flex;
+    position: relative;
+}
+
+.post-title {
+    text-align: center;
+    border-radius: 5px solid black;
+    width: 60%;
+    background-color: #5c5c5a;
+    padding: 5px;
+    display: flex;
+    border-left: 10px solid;
+}
+
+.post-title h3 {
+    margin: auto;
+    color: white;
+}
+
+.post-author {
+    top: 0px;
+    right: 0;
+    transform: translate(50%, -50%);
+    position: absolute;
+}
+
+.post-author h5 {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    background-color: #5c5c5a;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.post-buttons {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 30%
+}
+
+.edit,
+.view,
+.delete {
+    font-size: 20px;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 20px;
+    border: 0;
+    transition: all 0.2s;
+}
+
+.view {
+    background-color: #699FA1;
+}
+
+.edit {
+    background-color: #ffef41;
+}
+
+.delete {
+    color: white;
+    background-color: #cb3827;
+}
+
+.post-buttons button:hover {
+    cursor: pointer;
+    background-color: #5c5c5a;
+    color: white;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+
+
+.upper-buttons button {
+    width: 50%;
+}
+
+.upper-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-date {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.post-date h5 {
+    background-color: #5c5c5a;
+    padding: 5px;
+    color: white;
+    border-radius: 0 0 6px;
+    transform: translate(20%, 20%);
+}
+
+.post-divider {
+    margin: 20px;
+}
+
+.post-delete-loading {
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background-color: #cb3827;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: absolute;
+}
