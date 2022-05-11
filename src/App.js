@@ -19,7 +19,7 @@ function App() {
   
   return (
     <div className="App">
-  <BrowserRouter>
+  <BrowserRouter basename='/blog-app-admin-client'>
         <Navbar />
         <div className='page'>
 
